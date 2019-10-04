@@ -55,7 +55,7 @@ public class WordAnalyzer
 	 * 
 	 * @return the number of repeated character groups
 	 */
-	private int find(char c, int pos) {
+	public int find(char c, int pos) {
 		for (int i = pos; i < word.length(); i++) {
 			if (word.charAt(i) == c) {
 				return i;
